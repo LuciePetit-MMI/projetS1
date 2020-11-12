@@ -1,0 +1,21 @@
+/* ------------- Table des matières
+  1-Textes
+  2-Images ------------- */
+
+/* ------------- 1-Textes ------------- */
+
+.projets p {
+  background: var(--bleu);
+  padding: 1vw;
+  text-align: center;
+  width: 38vw;
+  height: 5vh;
+  margin: 0;
+}
+
+/* ------------- 2-Images ------------- */
+
+.projets img {
+  width: 40vw;
+  margin: 0;
+}
