@@ -1,0 +1,84 @@
+/* ------------- Table des matières
+  1-Mise en page header
+  2-Mise en page tweets ------------- */
+
+/* ------------- 1-Mise en page header ------------- */
+
+.img-accueil {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.accueil header p {
+  color: var(--light);
+  text-align: end;
+  margin: 60vh 0 0 30vw;
+  padding: 0;
+  font-size: 1.5rem;
+  width: 60vw;
+}
+
+.accueil .scroll {
+  height: 50px;
+  width: 25px;
+  margin: 2vh 0 0 40vw;
+}
+
+/* effet parallax */
+#bg-accueil {
+  width: 100vw;
+  height: 100vh;
+  margin-left: -7.5vw;
+  background: var(--bleu);
+  z-index: -9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#hearth {
+  background: url("../img/heart_memorage_lucie_petit.png");
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin-left: -7.5vw;
+  z-index: -999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#personnage {
+  background: url("../img/manon_avec_son_chien_memorage_lucie_petit.png");
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin-left: -7.5vw;
+  z-index: -99;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* ------------- 2-Mise en page tweets ------------- */
+
+.accueil .grid2 img {
+  width: 45vw;
+  margin-left: 0;
+}
+
+.accueil .button {
+  margin-top: 10px;
+}
+
+.img-tweet {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.accueil .grid2 {
+  margin-bottom: 40px;
+}
