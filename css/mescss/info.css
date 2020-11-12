@@ -1,0 +1,79 @@
+/* ------------- Table des matières
+  1-A propos
+  2-Reseaux sociaux
+  3-Fromulaire de contact ------------- */
+
+/* ------------- 1-A propos ------------- */
+
+.info img {
+  width: 50vw;
+  margin: 110px 0 0 65px;
+}
+
+.info p {
+  text-align: center;
+}
+
+.info .button {
+  margin-left: 95px;
+}
+
+/* ------------- 2-Reseaux sociaux ------------- */
+
+.info h2 {
+  padding-top: 0;
+  text-align: center;
+}
+
+.info .reseaux {
+  margin: 30px 0 30px 25px;
+}
+
+.info .reseaux a {
+  padding: 0 10px;
+}
+
+/* ------------- 3-Formulaire de contact ------------- */
+
+label {
+  display: block;
+  margin: 15px 0 10px 0;
+  color: var(--dark);
+  font-family: "Work sans";
+  font-size: 1rem;
+}
+
+input {
+  width: 100%;
+  height: 1.8rem;
+  background: var(--light);
+  color: var(--dark);
+  border: var(--bleu) solid 1px;
+  border-radius: 10px;
+}
+
+input:focus {
+  border: var(--bleu) solid 2px;
+}
+
+textarea {
+  width: 100%;
+  height: 10rem;
+  background: var(--light);
+  color: var(--dark);
+  border: var(--bleu) solid 1px;
+  border-radius: 10px;
+}
+
+button {
+  background: var(--bleu);
+  color: var(--light);
+  font-size: 1rem;
+  width: 35%;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px 0 0 205px;
+}
