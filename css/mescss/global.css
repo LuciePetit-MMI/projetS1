@@ -1,0 +1,155 @@
+/* ------------- Table des matières
+  1-Typographies
+  2-Mise en page
+  3-Variables couleurs
+  4-Menu
+  5-Textes
+  6-Mise en evidences
+  7-Médias ------------- */
+
+/* ------------- 1-Typographies ------------- */
+/* Asap : semi-bold */
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap");
+/* Work sans : regular, italic regular, semi-bold */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400&display=swap");
+
+/* ------------- 2-Mise en page ------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  position: relative;
+  margin: 0 7.5vw;
+  width: 85vw;
+  overflow-x: hidden;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40vw, 2fr));
+  grid-gap: 18px;
+}
+
+.separateur {
+  height: 60px;
+}
+
+/* ------------- 3-Variables couleurs ------------- */
+
+:root {
+  --light: #f2f2f2;
+  --tonic: #84ccd6;
+  --dark: #313336;
+  --bleu: #325d5e;
+}
+
+/* ------------- 4-Menu ------------- */
+
+nav {
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  margin-left: -7.5vw;
+  background: var(--bleu);
+  z-index: 999;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  position: absolute;
+  width: 15vw;
+  top: 1rem;
+  left: 1.5rem;
+}
+
+/* ------------- 5-Textes ------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Asap", sans-serif;
+  font-weight: 600;
+}
+
+.accueil header h1{
+    color: var(--light);
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 90px;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-top: 130px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.button {
+  background: var(--bleu);
+  width: 80%;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------- 6-Mise en evidences ------------- */
+
+.lien {
+  color: var(--tonic);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.exergue {
+  font-weight: 600;
+}
+
+i {
+  color: var(--bleu);
+}
+
+/* ------------- 7-Médias ------------- */
+
+img {
+  width: 100vw;
+  margin-left: -7.5vw;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 0.8rem;
+  width: 85%;
+}
