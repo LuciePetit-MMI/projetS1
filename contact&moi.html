@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Fichiers CSS -->
+    <link rel="stylesheet" href="./css/lib/normalize.css">
+    <link rel="stylesheet" href="./css/mescss/global.css">
+    <link rel="stylesheet" href="./css/mescss/menu.css">
+    <link rel="stylesheet" href="./css/mescss/footer.css">
+    <link rel="stylesheet" href="./css/mescss/info.css">
+    <link rel="stylesheet" href="./css/mescss/pop-up.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.ico" />
+    
+    <!-- Script icons -->
+    <script src="https://kit.fontawesome.com/9f176f503d.js" crossorigin="anonymous"></script>
+    
+    <!-- CDN slider library -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+      <title>Contact&Moi | MemoRage</title>
+</head>
+
+<body id="infos">
+
+  <header>
+    <nav class="nav">
+        <div class="nav__bar">
+    
+    <!-- Logo -->
+          <a href="index.html"><img src="./img/logo_memorage_lucie_petit.svg" alt="Logo MemoRage" class="logo"></a>
+    
+    <!-- Menu hamburger -->
+            <div class="nav__ham">
+                <span class="ham__elem"></span>
+                <span class="ham__elem"></span>
+            </div>
+        </div>
+    
+    <!-- Menu -->
+        <div>
+          <ul class="nav__menu">
+            <li class="menu__link accueil"><a href="index.html" class="link">Accueil</a></li>
+            <li class="menu__link book"><a href="manon-moinet-une-amnesie-influente.html" class="link">Manon Moinet, une amnésie influente</a></li>
+            <li class="menu__link pollu"><a href="la-pollution-due-aux-data-centers.html" class="link">La pollution due aux data-centers</a></li>
+            <li class="menu__link solution1"><a href="sauver-nos-enfants-cest-agir-maintenant.html" class="link">Sauver nos enfants, c'est agir maintenant</a></li>
+            <li class="menu__link solution2"><a href="stocker-autrement-pour-sauver-la-planete.html" class="link">Stocker autrement pour sauver la planète ?</a></li>
+            <li class="menu__link infos"><a href="contact&moi.html" class="link">Contact&Moi</a></li>
+            <li class="menu__link projets"><a href="autres-projets.html" class="link">Découvres-en plus sur la pollution numérique</a></li>
+          </ul>
+        </div>
+      </nav>
+      </header>
+
+  <main class="info">
+
+<!-- A propos -->
+
+     <img src="./img/avatar_memorage_lucie_petit.png" alt="Avatar Lucie Petit">
+     <p>Salut ! Moi c'est Lucie. J'ai réalisé ce site dans le cadre de mes études. Pour ce projet j'ai enfillé les casquettes de développeur, webdesigner, et créateur de contenu !</p>
+     <p>Si tu veux découvrir les projets de mes collègues</p>
+     <a href="autres-projets.php" class="button">C'est par ici</a>
+     <p>Si t'as une question ou que tu as besoin d'un site ...</p>
+     <h2>Contactes-moi !</h2>
+
+<!-- Reseaux Sociaux -->
+
+     <div class="reseaux">
+       <a href="https://www.facebook.com/lucie.petit.121/"><i class="fab fa-facebook fa-2x"></i></a>
+       <a href="https://www.instagram.com/schefflera_logo/?hl=fr"><i class="fab fa-instagram fa-2x"></i></a>
+       <a href="https://vm.tiktok.com/ZSQ7Pt4V/"><i class="fab fa-tiktok fa-2x"></i></a>
+       <a href="https://dribbble.com/Schefflera"><i class="fab fa-dribbble fa-2x"></i></a>
+       <a href="https://www.behance.net/luciepetit"><i class="fab fa-behance-square fa-2x"></i></a>
+     </div>
+
+<!-- Formulaire du contact -->
+
+     <form method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">E-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="message">Message :</label>
+            <textarea id="message" name="user_message"></textarea>
+        </div>
+    </form>
+    <div id="button">
+        <button type="submit">Envoyer</button>
+    </div>
+  </main>
+  <div class="separateur"></div>
+
+  <footer>
+    <a href="#" onclick="toggle()">Mes sources</a>
+    <div id="popup">
+      <div class="headerpopup">
+        <h4>Mes Sources</h4>
+        <a href="#" onclick="toggle()" class="cross"><i class="fas fa-times fa-2x"></i></a>
+      </div>
+      <p><a href="https://www.lebigdata.fr/adn-synthetique-lavenir-stockage-de-donnees
+      ">lebigdata.fr - ADN synthétique : l’avenir du stockage de données ?</a></p>
+      <p><a href="https://www.lebigdata.fr/data-centers-environnement
+      ">lebigdata.fr - Comment réduire l’impact des Data Centers sur l’environnement</a></p>
+      <p><a href="https://expertadn.fr/stockage-eternel-de-donnees-dans-ladn/
+      ">expertadn.fr - Un stockage éternel des données dans l’ADN?</a></p>
+      <p><a href="https://www.computerworld.com/article/3431148/why-data-centres-are-the-new-frontier-in-the-fight-against-climate-change.html
+      ">[En] computerworld.fr - Why data centres are the new frontier in the fight against climate change</a></p>
+      <p><a href="https://www.archimag.com/demat-cloud/2019/11/20/ecologie-numerique-chiffres-infographie-conseils-dematerialisation-verte
+      ">archimag.com - L'écologie numérique : infographie, chiffres-clés et conseils pour une dématérialisation plus verte</a></p>
+      <p><a href="https://www.novethic.fr/actualite/infographies/isr-rse/envoyer-un-mail-regarder-une-video-l-impact-environnemental-du-numerique-decode-145813.html
+      ">novethic.fr - [INFOGRAPHIE] SI INTERNET ÉTAIT UN PAYS, CE SERAIT LE SIXIÈME CONSOMMATEUR D'ÉNERGIE ET LE SEPTIÈME ÉMETTEUR DE CO2</a></p>
+    </div>
+    <p><a href="contact&moi.php">Lucie Petit C1</a></p>
+  
+  <!-- Reseaux Sociaux -->
+  
+    <div class="reseaux">
+      <a href="mailto:lucie.petit04@gmail.com" target="blank"><i class="far fa-envelope fa-2x"></i></a>
+      <a href="https://www.facebook.com/lucie.petit.121/" target="blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/schefflera_logo/?hl=fr" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://vm.tiktok.com/ZSQ7Pt4V/" target="blank"><i class="fab fa-tiktok fa-2x"></i></a>
+      <a href="https://dribbble.com/Schefflera" target="blank"><i class="fab fa-dribbble fa-2x"></i></a>
+      <a href="https://www.behance.net/luciepetit" target="blank"><i class="fab fa-behance-square fa-2x"></i></a>
+    </div>
+  
+  <!-- Mentions Légales -->
+  
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com" target="blank" class="lien">MMI de Montbéliard</a></p>
+  </footer>
+<!-- CDN Jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+<!-- CDN slider library -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Mes scripts -->
+<script src="./js/menu.js"></script>
+<script src="./js/pop-up.js"></script>
+
+</body>
+
+</html>
