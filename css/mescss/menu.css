@@ -1,0 +1,111 @@
+/* ------------- Table des matières
+  1-Animation
+  2-Style
+  3-Toggle
+  4-Traits toggle
+  5-Menu
+  6-Liens menu
+  7-Classe ------------- */
+
+/* ------------- 1-Animation ------------- */
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ------------- 2-Style ------------- */
+
+.nav__bar {
+  position: fixed;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  /*z-index: 1;*/
+}
+
+/* ------------- 3-Toggle ------------- */
+.nav__ham {
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  -moz-width: fit-content;
+}
+
+/* ------------- 4-Traits Toggle ------------- */
+.ham__elem {
+  height: 3px;
+  width: 50px;
+  background-color: var(--tonic);
+  border-radius: 40px;
+  transform: rotate(0deg);
+  transition: transform 0.1s linear;
+  margin-bottom: 0.5rem;
+}
+
+.ham__elem:first-of-type.open {
+  transform: rotate(45deg);
+  transition: transform 0.1s linear;
+  margin-bottom: -3px;
+}
+
+.ham__elem:last-of-type.open {
+  transform: rotate(-45deg);
+  transition: transform 0.1s linear;
+}
+
+/* ------------- 5-Menu ------------- */
+.nav__menu {
+  background-color: var(--bleu);
+  width: 100%;
+  height: 0;
+  transition: height 0.3s ease-out;
+}
+
+/* ------------- 6-Liens menu ------------- */
+.menu__link {
+  margin-bottom: 1rem;
+  opacity: 0;
+  border-bottom: solid var(--tonic) 2px;
+  width: 80vw;
+  padding: 2vh;
+  display: none;
+}
+
+.menu__link:first-of-type {
+  margin-top: 40px;
+}
+
+.menu__link a {
+  color: var(--light);
+  font-size: 1.4rem;
+}
+
+.nav__menu.active > .menu__link {
+  opacity: 1;
+  transition: opacity 0.3s ease-out 0.3s;
+  display: block;
+}
+
+/* ------------- 7-Classe ------------- */
+
+.active {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: height 0.3s ease-out;
+}
+
+.current {
+  color: var(--tonic) !important;
+  font-weight: 600;
+}
