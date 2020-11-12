@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Fichiers CSS -->
+    <link rel="stylesheet" href="./css/lib/normalize.css">
+    <link rel="stylesheet" href="./css/mescss/global.css">
+    <link rel="stylesheet" href="./css/mescss/menu.css">
+    <link rel="stylesheet" href="./css/mescss/footer.css">
+    <link rel="stylesheet" href="./css/mescss/index.css">
+    <link rel="stylesheet" href="./css/mescss/articles.css">
+    <link rel="stylesheet" href="./css/mescss/projets.css">
+    <link rel="stylesheet" href="./css/mescss/info.css">
+    <link rel="stylesheet" href="./css/mescss/slider.css">
+    <link rel="stylesheet" href="./css/mescss/pop-up.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.ico" />
+    
+    <!-- Script icons -->
+    <script src="https://kit.fontawesome.com/9f176f503d.js" crossorigin="anonymous"></script>
+    
+    <!-- CDN slider library -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+      <title>Stocker autrement | MemoRage</title>
+</head>
+
+<body class="article" id="solution2">
+  <header>
+    <nav class="nav">
+        <div class="nav__bar">
+    
+    <!-- Logo -->
+          <a href="index.html"><img src="./img/logo_memorage_lucie_petit.svg" alt="Logo MemoRage" class="logo"></a>
+    
+    <!-- Menu hamburger -->
+            <div class="nav__ham">
+                <span class="ham__elem"></span>
+                <span class="ham__elem"></span>
+            </div>
+        </div>
+    
+    <!-- Menu -->
+        <div>
+          <ul class="nav__menu">
+            <li class="menu__link accueil"><a href="index.html" class="link">Accueil</a></li>
+            <li class="menu__link book"><a href="manon-moinet-une-amnesie-influente.html" class="link">Manon Moinet, une amnésie influente</a></li>
+            <li class="menu__link pollu"><a href="la-pollution-due-aux-data-centers.html" class="link">La pollution due aux data-centers</a></li>
+            <li class="menu__link solution1"><a href="sauver-nos-enfants-cest-agir-maintenant.html" class="link">Sauver nos enfants, c'est agir maintenant</a></li>
+            <li class="menu__link solution2"><a href="stocker-autrement-pour-sauver-la-planete.html" class="link">Stocker autrement pour sauver la planète ?</a></li>
+            <li class="menu__link infos"><a href="contact&moi.html" class="link">Contact&Moi</a></li>
+            <li class="menu__link projets"><a href="autres-projets.html" class="link">Découvres-en plus sur la pollution numérique</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+<!-- Introdution -->
+    <h2>Stocker autrement pour sauver la planète ?</h2>
+    <p class="chapeau">Aujourd’hui de nombreux chercheurs travaillent sur de nouvelles techniques de stockage. ADN, polymères, ces chaînes ne sont pas si différentes de nos 0 et nos 1. Depuis quelques années, des chercheurs essaient de transformer les données en chaîne d’ADN ou de polymère. La technique n’est pas encore au point, mais je t'en dis plus !</p>
+    <div class="separateur-article"></div>
+    <div class="img-intro sol2"></div>
+  </header>
+  <main>
+    <div class="separateur-article"></div>
+
+<!-- Article -->
+    <div class="corps-article">
+      <h3>Le stockage sur l'ADN, pas si naturel</h3>
+      <p>Des chercheurs travaillent sur une nouvelle technique de stockage. Le stockage dans l’<span class="exergue">ADN</span> synthétisé chimiquement. L’ADN est une succession de nucléotide A, T, C et G. Pour encoder des données, il faut attribuer la valeur 1 à deux nucléotides. Pareil pour la valeur 0. Ensuite, il suffit de <span class="exergue">synthétiser</span> l’ADN de telle sorte à ce que le code ATCG corresponde au code 01 de base. Mais ce procédé est long et compliqué. Il faut ajouter chaque nucléotide à l’aide d’une réaction chimique. <a href="https://dnascript.com" target="blank" class="lien">DNA Script</a>, travail sur une méthode qui réduirait le temps de synthèse de 10 jours à 24 h. Ils espèrent accomplir cet exploit en utilisant des enzymes. Mais les mécanismes enzymatiques sont complexes à maîtriser. Aujourd’hui, les chercheurs sont coincés à ce point crucial.</p>
+      <figure>
+        <img src="./img/schema_encodage_sur_adn_memorage_lucie_petit.png" alt="Schema encodage et decodage sur ADN" class="img-article">
+        <figcaption>Schéma du codage / décodage de donnée sur l'ADN</figcaption>
+      </figure>
+      <p>Cependant, on sait déjà comment encoder et décoder sur ADN. Pour encoder, il faut créer une règle de base. Par exemple A et T=0 et C et G=1. Ensuite, on maîtrise la synthèse de l’ADN pour obtenir la chaîne que l’on veut. Pour décoder, il suffit de <span class="exergue">séquencer</span> l’ADN avec un ordinateur. Il suffit ensuite d’appliquer la clé de codage en sens inverse. Cette technique permet de stocker un grand nombre de données dans un petit espace. 1mm3 d’ADN peut stocker <span class="exergue">1 milliard de Go</span>. Et cette technique de stockage est à l'épreuve du temps. Pour preuve, on peut encore extraire de l’ADN sur des fossiles. Cependant, cette technique aurait quelques failles. En effet, l’ADN se conserverait qu’en milieu aqueux et chargé négativement. Compliquer pour travailler dans la nanoélectronique.</p>
+      <div class="separateur-article"></div>
+      <h3>Stocker des données sur une fibre ? Oui, c’est possible !</h3>
+      <p>Pour pallier à ce problème, des chercheurs exploitent la piste des <span class="exergue">polymères</span>. Un polymère est une chaîne de molécule. Le principe de l’encodage est le même que pour l’ADN. On créé deux molécules artificielles pour représenter le 1 et le 0. Ensuite, on synthétise un polymère dans l’ordre de la séquence de donnée que l’on veut. Le problème est qu’on ne sait pas contrôler une <span class="exergue">synthèse</span> de polymère. La molécule s’accroche n’importe où et dans n’importe quel sens. Ce qui pose un grand problème quand on veut maîtriser ce que l’on encode. Les chercheurs travaillent sur une méthode pour attacher les molécules une à une depuis 10 ans. Le processus est malheureusement <span class="exergue">très long</span>, quelques minutes, par molécules. Pour comparer, l’ADN est synthétisé naturellement à la vitesse de 20 molécules/seconde. Malgré cela, les chercheurs ont réussi à encoder des données. Cette technique est prometteuse. D’autant plus que si on chauffe les polymères, ils se détruisent. On peut détruire naturellement et rapidement des données inutiles. </p>
+      <figure>
+        <img src="./img/schema_encodage_sur_polymère_memorage_lucie_petit.png" alt="Schema encodage et decodage sur poylymère" class="img-article">
+        <figcaption>Schéma du codage / décodage de donnée sur un polymère synthètique</figcaption>
+      </figure>
+      <p>Ces types de stockages ne sont pas près d’être disponibles sur nos ordinateurs. Mais ça redonne espoir non ? Imagine pouvoir supprimer tous les data-centers. Remplacer tous ces bâtiments par un seul. Dans l’idée de la réserve de graines internationale. Ce serait beaucoup mieux non ?</p>
+      <p>Vas plus loin avec cet article du CNRS</p>
+      <div class="separateur-article"></div>
+
+<!-- Article Scientifique -->
+      <h3>Des molécules pour stocker l’information</h3>
+      <div class="paragraphe">
+        <p>Face à l’explosion des données numériques, les chercheurs réfléchissent à des modes de stockage révolutionnaires. Parmi les pistes les plus prometteuses : l’utilisation de polymères, ces longues chaînes moléculaires.</p>
+        <p>Et si tout le savoir humain actuellement contenu sur Internet tenait dans l’espace d’un bureau, en lieu et place des hectares de data centers qui envahissent la planète ? C’est ce qu’envisagent très sérieusement les chimistes spécialistes des polymères, qui veulent utiliser ces longues chaînes moléculaires pour stocker à terme les zettaoctets (1021) d’information numérique produits chaque année. « Un polymère est une succession de petites molécules associées les unes aux autres, les monomères, explique Jean-François Lutz, spécialiste des macromolécules à l’Institut Charles-Sadron du CNRS. L’idée, c’est d’inscrire de l’information sur ces longues chaînes en donnant à chaque monomère une valeur donnée, 0 ou 1, exactement comme on le fait aujourd’hui sur les supports de type silicium. » Le procédé est directement inspiré de ce que fait la nature depuis des millions d’années avec son polymère le plus célèbre : l’ADN ! « Dans le cas de l’ADN, il s’agit des quatre nucléotides A, T, G et C qui, en fonction de l’ordre dans lequel ils sont associés, codent pour des milliards d’informations génétiques différentes », précise Jean-François Lutz.</p>
+        <p>Tout un livre sur ADN. L’une des pistes suivies par les chercheurs consiste d’ailleurs à écrire l’information directement sur de… l’ADN créé artificiellement, en utilisant les techniques de synthèse d’ADN développées en laboratoire depuis quarante ans. Il « suffit » pour cela de décider arbitrairement que deux des quatre nucléotides codent pour le zéro, et deux autres, pour le 1, et d’écrire ainsi tous les messages voulus. Pour lire les données, rien de plus simple : les chercheurs utilisent les machines de séquençage automatique du génome. Et ça marche ! Avec cette méthode, une équipe de chercheurs de Harvard a réussi à encoder sur ADN un livre de 300 pages, illustrations comprises.1 Avantage de l’ADN : dans des conditions de conservation adaptées, il est quasiment indestructible et demeure intact des milliers d’années, quand les dispositifs sur silicium ont une durée de vie de quelques dizaines d’années tout au plus. Inconvénient, il se conserve en milieu aqueux et est chargé ioniquement… Pas idéal quand on envisage de travailler à l’interface de la nanoélectronique ! [...]</p>
+      </div>
+      <a href="#" class="button">Lire la suite</a>
+    </div>
+  </main>
+  <div class="separateur"></div>
+
+  <footer>
+    <a href="#" onclick="toggle()">Mes sources</a>
+    <div id="popup">
+      <div class="headerpopup">
+        <h4>Mes Sources</h4>
+        <a href="#" onclick="toggle()" class="cross"><i class="fas fa-times fa-2x"></i></a>
+      </div>
+      <p><a href="https://www.lebigdata.fr/adn-synthetique-lavenir-stockage-de-donnees
+      ">lebigdata.fr - ADN synthétique : l’avenir du stockage de données ?</a></p>
+      <p><a href="https://www.lebigdata.fr/data-centers-environnement
+      ">lebigdata.fr - Comment réduire l’impact des Data Centers sur l’environnement</a></p>
+      <p><a href="https://expertadn.fr/stockage-eternel-de-donnees-dans-ladn/
+      ">expertadn.fr - Un stockage éternel des données dans l’ADN?</a></p>
+      <p><a href="https://www.computerworld.com/article/3431148/why-data-centres-are-the-new-frontier-in-the-fight-against-climate-change.html
+      ">[En] computerworld.fr - Why data centres are the new frontier in the fight against climate change</a></p>
+      <p><a href="https://www.archimag.com/demat-cloud/2019/11/20/ecologie-numerique-chiffres-infographie-conseils-dematerialisation-verte
+      ">archimag.com - L'écologie numérique : infographie, chiffres-clés et conseils pour une dématérialisation plus verte</a></p>
+      <p><a href="https://www.novethic.fr/actualite/infographies/isr-rse/envoyer-un-mail-regarder-une-video-l-impact-environnemental-du-numerique-decode-145813.html
+      ">novethic.fr - [INFOGRAPHIE] SI INTERNET ÉTAIT UN PAYS, CE SERAIT LE SIXIÈME CONSOMMATEUR D'ÉNERGIE ET LE SEPTIÈME ÉMETTEUR DE CO2</a></p>
+    </div>
+    <p><a href="contact&moi.php">Lucie Petit C1</a></p>
+  
+  <!-- Reseaux Sociaux -->
+  
+    <div class="reseaux">
+      <a href="mailto:lucie.petit04@gmail.com" target="blank"><i class="far fa-envelope fa-2x"></i></a>
+      <a href="https://www.facebook.com/lucie.petit.121/" target="blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/schefflera_logo/?hl=fr" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://vm.tiktok.com/ZSQ7Pt4V/" target="blank"><i class="fab fa-tiktok fa-2x"></i></a>
+      <a href="https://dribbble.com/Schefflera" target="blank"><i class="fab fa-dribbble fa-2x"></i></a>
+      <a href="https://www.behance.net/luciepetit" target="blank"><i class="fab fa-behance-square fa-2x"></i></a>
+    </div>
+  
+  <!-- Mentions Légales -->
+  
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com" target="blank" class="lien">MMI de Montbéliard</a></p>
+  </footer>
+<!-- CDN Jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+<!-- CDN slider library -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Mes scripts -->
+<script src="./js/menu.js"></script>
+<script src="./js/pop-up.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/parallaxie.js"></script>
+<script src="./js/effet-parallaxe.js"></script>
+
+</body>
+
+</html>
