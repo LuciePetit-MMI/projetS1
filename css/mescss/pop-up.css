@@ -1,0 +1,49 @@
+/* ------------- Table des matières
+  1-Positionnement
+  2-Textes
+  3-Croix
+  4-Classe active ------------- */
+
+/* ------------- 1-Positionnement ------------- */
+
+#popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background: var(--bleu);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+/* ------------- 2-Textes ------------- */
+
+#popup h4,
+#popup a,
+#popup i {
+  color: var(--light);
+}
+
+/* -------------3-Croix ------------- */
+
+#popup a .cross {
+  margin-left: 260px;
+}
+
+.headerpopup {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+/* ------------- 4-Classe active ------------- */
+
+#popup.activepopup {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
