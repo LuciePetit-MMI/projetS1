@@ -4,6 +4,10 @@
 
 /* ------------- 1-Textes ------------- */
 
+#projets > header > h2 {
+  margin-bottom: 20px;
+}
+
 .projets p {
   background: var(--bleu);
   padding: 1vw;
