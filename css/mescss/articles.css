@@ -1,0 +1,82 @@
+/* ------------- Table des matières
+  1-Intro articles
+  2-Images intro
+  3-Corps articles ------------- */
+
+/* ------------- 1-Intro articles ------------- */
+
+.article .chapeau {
+  font-size: 1.1rem;
+}
+
+.img-intro {
+  width: 100vw;
+  height: 30vh;
+  margin-left: -7.5vw;
+  overflow-y: hidden;
+}
+
+/* ------------- 2-Images intro ------------- */
+
+.livre {
+  background: url("../../img/manon_avec_tablette_sans_fond_memorage_lucie_petit.png")
+    no-repeat 0 -30px;
+  background-size: cover;
+}
+
+.pollution {
+  background: url("../../img/echange_sans_fond_memorage_lucie_petit.png")
+    no-repeat 0 -60px;
+  background-size: cover;
+}
+
+.sol1 {
+  background: url(../../img/terre_memorage_lucie_petit.png) no-repeat 0 -70px;
+  background-size: cover;
+}
+
+.sol2 {
+  height: 15vh;
+  background: url(../../img/code_adn_memorage_lucie_petit.png) no-repeat 0 -150px;
+  background-size: cover;
+}
+
+/* ------------- 3-Corps articles ------------- */
+
+.separateur-article {
+  height: 50px;
+}
+
+#solution2 .separateur-article {
+  height: 20px;
+}
+
+.img-article {
+  height: 250px;
+  width: auto;
+  margin-left: 25px;
+}
+
+.img-intro-sol1 {
+  position: absolute;
+  top: -60px;
+}
+
+.ui {
+  width: 100vw;
+  margin-left: -27px;
+  height: auto;
+}
+
+.paragraphe p {
+  padding: 5px 0;
+  margin: 0;
+}
+
+.paragraphe {
+  margin-bottom: 30px;
+}
+
+.article .button {
+  margin: 50px 0 0 190px;
+}
