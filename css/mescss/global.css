@@ -76,16 +76,22 @@ li {
 }
 
 /* ------------- 5-Textes ------------- */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Asap", sans-serif;
   font-weight: 600;
 }
 
-.accueil header h1{
-    color: var(--light);
-    text-align: center;
-    font-size: 3.5rem;
-    padding-top: 90px;
+.accueil header h1 {
+  color: var(--light);
+  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 90px;
+  margin: 0;
 }
 
 h2 {
