@@ -1,0 +1,39 @@
+/* ------------- Table des matières
+  1-Textes
+  2-Icons ------------- */
+
+/* ------------- 1-Textes ------------- */
+
+footer {
+  border-top: var(--bleu) solid 2px;
+  padding-top: 20px;
+}
+
+footer a {
+  color: var(--dark);
+}
+
+footer p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.mentions {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.mentions a {
+  font-size: 1rem;
+}
+
+/* ------------- 2-Icons ------------- */
+
+footer .reseaux {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px 20px;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+}
