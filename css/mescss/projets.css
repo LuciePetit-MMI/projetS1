@@ -15,6 +15,9 @@
   width: 38vw;
   height: 5vh;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ------------- 2-Images ------------- */

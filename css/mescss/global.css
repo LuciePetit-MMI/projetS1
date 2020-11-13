@@ -5,7 +5,8 @@
   4-Menu
   5-Textes
   6-Mise en evidences
-  7-Médias ------------- */
+  7-Médias
+  8-Classes ------------- */
 
 /* ------------- 1-Typographies ------------- */
 /* Asap : semi-bold */
@@ -28,8 +29,9 @@ body {
   color: var(--dark);
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
+  margin: auto;
+  padding: 0;
   position: relative;
-  margin: 0 7.5vw;
   width: 85vw;
   overflow-x: hidden;
 }
@@ -59,7 +61,6 @@ nav {
   height: 10vh;
   width: 100vw;
   position: fixed;
-  margin-left: -7.5vw;
   background: var(--bleu);
   z-index: 999;
 }
@@ -149,7 +150,6 @@ i {
 
 img {
   width: 100vw;
-  margin-left: -7.5vw;
 }
 
 figcaption {
@@ -158,4 +158,22 @@ figcaption {
   margin: 10px auto;
   font-size: 0.8rem;
   width: 85%;
+}
+
+/* ------------- 7-Médias ------------- */
+
+.ml-7{
+  margin-left: -7.5vw
+}
+
+.pt-50{
+  padding-top: 50px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.pb-30{
+  padding-bottom: 30px;
 }
