@@ -23,7 +23,8 @@
 .accueil .scroll {
   height: 50px;
   width: 25px;
-  margin: 2vh 0 0 45vw;
+  margin-top: 2vh;
+  transform: translateX(55vw);
 }
 
 /* effet parallax */
