@@ -20,23 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a85d4aab-abad-46a2-bd97-22e0af4846a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/IMG_0743resize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/UIinternet_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/UIinternet_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avatar_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/avatar_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/code_adn_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/code_adn_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/echange_sans_fond_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/echange_sans_fond_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/electricite_verte_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/electricite_verte_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fabrication_electricite_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fabrication_electricite_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/heart_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/heart_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/la_memoire_fantome_memorage_lucie_petit.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/la_memoire_fantome_memorage_lucie_petit.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/manon&amp;lucie_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/manon&amp;lucie_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/manon_avec_son_chien_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/manon_avec_son_chien_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/manon_avec_tablette_sans_fond_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/manon_avec_tablette_sans_fond_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/manon_discute_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/manon_discute_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/serveur_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/serveur_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tavail_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tavail_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/terre_memorage_lucie_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/terre_memorage_lucie_petit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autres-projets.html" beforeDir="false" afterPath="$PROJECT_DIR$/autres-projets.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +56,10 @@
       <workItem from="1607583813205" duration="1047000" />
       <workItem from="1607585691456" duration="69000" />
       <workItem from="1607768714827" duration="588000" />
+      <workItem from="1608021909374" duration="119000" />
+      <workItem from="1608135854573" duration="45000" />
+      <workItem from="1608193956322" duration="177000" />
+      <workItem from="1608196464310" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout liens externes projets + article scientifique">
       <created>1607583904607</created>
@@ -80,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607583904607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout lien projet gael">
+      <created>1608022006843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608022006843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout liens externes projets + article scientifique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout liens externes projets + article scientifique" />
+    <MESSAGE value="Ajout lien projet gael" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout lien projet gael" />
   </component>
   <component name="WindowStateProjectService">
     <state x="344" y="57" key="#SSH_Configurations" timestamp="1607584141741">

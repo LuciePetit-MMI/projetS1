@@ -36,12 +36,12 @@
 
 .swiper-wrapper {
   align-items: center;
-  margin-top: 80px !important;
+  /*margin-top: 80px !important;*/
 }
 
 .swiper-slide {
   width: 200px !important;
-  height: 250px;
+  height: 350px;
 }
 
 .swiper-slide-active {
